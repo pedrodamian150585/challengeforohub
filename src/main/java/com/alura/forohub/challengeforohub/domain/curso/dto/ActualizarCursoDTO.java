@@ -1,4 +1,9 @@
 package com.alura.forohub.challengeforohub.domain.curso.dto;
 
-public record ActualizarCursoDTO() {
+import com.alura.forohub.challengeforohub.domain.curso.Categoria;
+
+public record ActualizarCursoDTO(
+        String name,
+        Categoria categoria,
+        Boolean activo) {
 }

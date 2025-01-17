@@ -1,4 +1,10 @@
 package com.alura.forohub.challengeforohub.domain.curso.dto;
 
-public record CrearCursoDTO() {
+import com.alura.forohub.challengeforohub.domain.curso.Categoria;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
+public record CrearCursoDTO(
+        @NotBlank String name,
+        @NotNull Categoria categoria) {
 }
