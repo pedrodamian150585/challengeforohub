@@ -9,5 +9,4 @@ public class ChallengeforohubApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ChallengeforohubApplication.class, args);
 	}
-
 }
